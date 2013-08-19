@@ -1,0 +1,50 @@
+body {
+  padding-top: 40px;
+}
+hr {
+  margin: 5px 0 5px 0;
+}
+.printerTitle {
+  font-size: 30px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 0;
+  margin: 0 10px;
+  color: #545454;
+  background: #CDCDCD;
+}
+.span5 {
+  text-align: right;
+}
+.span4 {
+  border: 5px groove #CDCDCD;
+  border-radius: 15px;
+  padding: 30px 15px 15px 15px;
+  margin: 10px -15px;
+}
+.center {
+  text-align: center;
+}
+.centered-pills {
+  text-align: center;
+}
+.centered-pills ul.nav-pills {
+  display: inline-block;
+}
+.centered-pills li {
+  display: inline;
+}
+.centered-pills a {
+  float: left;
+}
+* html .centered-pills ul.nav-pills {
+  display: inline;
+}
+/* IE6 */
+* + html .centered-pills ul.nav-pills {
+  display: inline;
+}
+/* IE7 */
+.centered {
+  text-align: center;
+}
